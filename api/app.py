@@ -30,7 +30,7 @@ llm = Ollama(model="llama2")
 prompt_openai = ChatPromptTemplate.from_template(
     "Write me an essay about {topic} with 100 words")
 prompt_ollama = ChatPromptTemplate.from_template(
-    "Write me an essay about {topic} with 100 words")
+    "Write me an poem about {topic} with 100 words")
 
 add_routes(
     app,
